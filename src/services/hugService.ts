@@ -139,6 +139,16 @@ export function criarClinica(dados: NovaClinica): Promise<unknown> {
   return requisitar<unknown>("/clinica", { method: "POST", body: JSON.stringify(dados) });
 }
 
+// PUT substitui o registro inteiro: manda todos os campos.
+export function atualizarClinica(id: number, dados: NovaClinica): Promise<unknown> {
+  return requisitar<unknown>(`/clinica/${id}`, { method: "PUT", body: JSON.stringify(dados) });
+}
+
+// O banco não deixa excluir a clínica enquanto houver psicólogo vinculado (a API responde 404).
+export function excluirClinica(id: number): Promise<void> {
+  return requisitar<void>(`/clinica/${id}`, { method: "DELETE" });
+}
+
 // ---------- Psicólogo x Clínica (N:N) ----------
 
 export function listarVinculos(): Promise<PsicologoClinica[]> {

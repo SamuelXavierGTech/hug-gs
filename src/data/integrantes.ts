@@ -28,7 +28,7 @@ export const integrantes: Integrante[] = [
     foto: "/imagens/diogo.jpeg",
     github: "https://github.com/DiogoPedrosoAlves",
     linkedin: "https://www.linkedin.com/in/diogo-pedroso-alves-895346237/",
-    bio: "Integrante da equipe TechLeet, responsável por criar o site e por desenvolver ideias para o projeto.",
+    bio: "Integrante da equipe TechLeet, responsável por criar o site e por deesenvolver ideias para o projeto.",
   },
   {
     id: "murilo-munari-bissiato",
@@ -48,7 +48,7 @@ export const integrantes: Integrante[] = [
     foto: "/imagens/pedro.jpeg",
     github: "https://github.com/PedroSampaio20",
     linkedin: "https://www.linkedin.com/in/pedro-sampaio2002/",
-    bio: "Integrante da equipe TechLeet, responsável pelo Back-End focando na parte de Python.",
+    bio: "Integrante da equipe TechLeet, responsável pelo Back-End focando na parte de Pyhton.",
   },
   {
     id: "felipe-ferreira-amado",
