@@ -12,7 +12,7 @@ export interface Integrante {
 export const integrantes: Integrante[] = [
   {
     id: "samuel-pedroso",
-    nome: "Samuel Pedroso",
+    nome: "Samuel Pedroso Xavier",
     rm: "569335",
     turma: "1TDSR",
     foto: "/imagens/samuel.jpeg",
